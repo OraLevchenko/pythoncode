@@ -4,7 +4,7 @@ from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
 from config import Configuration
 
-# My first  microservice!
+# My second microservice!
 
 # create Flask app
 app = Flask(__name__)
