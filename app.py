@@ -4,7 +4,12 @@ from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
 from config import Configuration
 
-# My second microservice!
+# My microservice!
+# My first  microservice!
+
+
+
+
 
 # create Flask app
 app = Flask(__name__)
@@ -16,7 +21,7 @@ def home():
     return render_template('home.html')
 
 def rest_request_example():
-    print (requests.get("http://ip.jsontest.com/").text)
+    print (requests.get("http://140.86.15.104:3000/shield/33/45/pink/OraLevchenko").text)
 
 def read_db_SQL_example():
     conn = db.get_engine().connect()
