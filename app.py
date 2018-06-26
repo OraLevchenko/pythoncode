@@ -8,9 +8,6 @@ from config import Configuration
 # My first  microservice!
 
 
-
-
-
 # create Flask app
 app = Flask(__name__)
 app.config.from_object(Configuration)
