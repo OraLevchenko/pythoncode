@@ -18,7 +18,16 @@ def home():
     return render_template('home.html')
 
 def rest_request_example():
-    print (requests.get("http://140.86.15.104:3000/shield/33/45/pink/OraLevchenko").text)
+    print (requests.get("http://140.86.15.104:3000/shield/45/0/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/1/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/2/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/3/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/4/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/5/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/6/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/7/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/8/pink/OraLevchenko").text)
+print (requests.get("http://140.86.15.104:3000/shield/45/9/pink/OraLevchenko").text)
 
 def read_db_SQL_example():
     conn = db.get_engine().connect()
