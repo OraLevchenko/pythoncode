@@ -28,7 +28,7 @@ def read_db_SQL_example():
     for row in results:
         rows = rows + ','.join(row) + "<br/>"
     print(rows)
-	
+	 
 rest_request_example()
 try:
 	read_db_SQL_example()
